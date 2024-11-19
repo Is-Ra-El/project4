@@ -1,0 +1,571 @@
+
+body{
+    font-family: "Rubik", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    
+    margin-top: 0%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+    
+}
+
+#first{
+    background-image: linear-gradient(hsl(293, 100%, 63%) ,hsl(264, 100%, 61%));
+    height: 850px;
+    width: 800px;
+    margin-left: -150px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+#phone{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 650px;
+    width: 380px;
+    border: 1px solid hsl(270, 20%, 96%) ;
+    box-shadow: 5px 5px 10px hsl(270, 20%, 96%);
+    border-radius: 40px;
+    margin-left: -100px;
+}
+#screen{
+    
+    background-color: hsl(270, 20%, 96%);
+    height: 625px;
+    width: 325px;
+    border-radius: 30px;
+    
+}
+#t{ 
+    width: 150px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid hsl(210, 100%, 99%);
+    margin: auto;
+    margin-top: -110px;
+    border-radius: 20px;
+    position: absolute;
+    border: none;
+}
+
+#tb{
+   
+    background-image: linear-gradient(to right,hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 120px;
+    width: 325px;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg{
+    margin-top: 25px;
+    
+    
+}
+#avatar{
+    border-radius: 50%;
+
+}
+#sam{
+    width: 400px;
+    font-size:20px;
+    color: white;
+    font-weight: bold;
+
+}
+#available{
+    font-size: 13px;
+    color: gainsboro;
+    position: relative;
+    top: -3px;
+    
+}
+#samavail{
+    width: auto;
+    margin-left: 10px;
+
+}
+#back{
+    margin-left: 5px;
+    margin-top: 8px;
+}
+#more{
+    margin-left: 40px;
+    margin-top: 8px;
+}
+#textspace{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 325px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    flex-wrap: nowrap;  
+    color: hsl(276, 55%, 52%);
+}
+.form,#textbox1,#textbox2,#textbox3,#textbox4,#textbox5,.dogpics,#send{
+    animation-name: emptychat;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#textbox1,#textbox2,#textbox3,#textbox4,#textbox5{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+#textbox1{
+    width: 185px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    margin-top: 15px;
+    animation: animatechatleft 0.5s linear 1s 1 backwards;
+}
+#textbox2{
+    margin-top: 10px;
+    width: 185px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    animation: animatechatleft 0.5s linear 2s 1 backwards;
+}
+.dogpics{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 15px;
+    animation: animatechatleft 0.5s linear 3s 1 backwards;
+
+}
+
+
+#dogpic1,#dogpic2,#dogpic3{
+   
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 5px;
+
+}
+.r-text{
+    align-self: flex-end;
+    margin-right: 15px;
+}
+#textbox3{
+    
+    padding: 4px;
+    width: 160px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    color: hsl(271, 15%, 43%);
+    animation: animatechatleft 0.5s linear 4s 1 backwards;
+
+}
+#textbox4{
+
+    padding: 3px;
+    width: 140px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    color: hsl(271, 15%, 43%);
+    animation: animatechatleft 0.5s linear 5s 1 backwards;
+
+    
+}
+#textbox5{
+    padding: 6px;
+    width: 190px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    margin-top: 10px;    
+    animation: animatechatleft 0.5s linear 6s 1 backwards;
+
+}
+#form1{
+    animation: animatechatleft 0.5s linear 7s 1 backwards;
+
+}
+#form2{
+    animation: animatechatleft 0.5s linear 8s 1 backwards;
+
+}
+
+.form{
+    width: 190px;
+    height: 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+
+}
+
+
+#send{
+    
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 15px; 
+    border: 1px solid white;
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    animation: animatechatleft 0.5s linear 9s 1 backwards;
+
+}
+#sendicon{
+    margin-left: 85px;
+    align-self: flex-end;
+}
+#message{
+    margin-left: 15px;
+    color: gainsboro;
+    /* border: 2px solid black; */
+    
+}
+#price1{
+    margin-left: 35px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#price2{
+    margin-left: 49px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#middle{
+    align-self: center;
+    text-align: left;
+    width: 1000px;
+    margin-left: 200px;
+}
+p{
+    font-size: 30px;
+    line-height: 40px;
+    color: hsl(270, 7%, 64%);
+}
+h1{
+    font-size: 55px;
+    color: hsl(271, 36%, 24%);
+}
+
+#last{
+    z-index: -1;
+    height: 900px;
+    width: 800px;
+    background-image: linear-gradient(hsl(293, 100%, 63%) ,hsl(264, 100%, 61%));
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    opacity: 0.1;
+   margin-right:-200px ;
+   margin-top: 300px;
+}
+.attribution{
+    position: relative;
+    top:200px;
+    left: -100px;
+}
+
+@keyframes animatechatleft {
+    from{transform: translate(0px, 20px); opacity: 0;}
+    to{transform: translate(0px, 0px) ;opacity:1;}
+    
+}
+@keyframes animatechatright {
+    from{transform: translate(50px, 0px); opacity: 0;}
+    to{transform: translate(0px, 0px) ;opacity:1;}
+    
+}
+@keyframes emptychat {
+    from{opacity: 0;}
+    to{opacity:0;}
+    
+}
+
+@media only screen and (max-width: 600px) {
+    #content{
+        flex-direction: row; 
+        flex-wrap: wrap;
+        height: 100vh;
+        width: 100vw;
+        
+        
+    }
+    #first{
+        position: absolute;
+        height: 520px;
+        width: 400px;
+        z-index: -1;
+        margin-left: -180px;
+        
+    }
+    #phone{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        height: 550px;
+        width: 300px;
+        border: 1px solid hsl(270, 20%, 96%) ;
+        box-shadow: 5px 5px 10px hsl(270, 20%, 96%);
+        border-radius: 40px;
+        margin-top: 50px;
+    }
+    #screen{
+    
+        background-color: hsl(270, 20%, 96%);
+        height: 520px;
+        width: 270px;
+        border-radius: 30px;
+        
+    }
+    #t{ 
+        width: 120px;
+        height: 30px;
+        margin-top: -110px;
+        border-radius: 20px;
+        position: absolute;
+        border: none;
+    }
+    
+    #tb{
+       
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: 110px;
+        width: 270px;
+        align-items: center;
+        justify-content: center;
+    }
+    .svg{
+        margin-top: 25px;
+        
+        
+    }
+    #avatar{
+        border-radius: 50%;
+    
+    }
+    #sam{
+        width: 400px;
+        font-size:16px;
+    
+    }
+    #available{
+        font-size: 12px;
+        color: gainsboro;
+        position: relative;
+        top: -2px;
+        
+    }
+    
+    #textspace{
+      
+        width: 270px;
+        padding: 10px;
+        
+    }
+    #textbox1,#textbox2,#textbox3,#textbox4,#textbox5{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+    #textbox1{
+        width: 185px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: gainsboro;
+        margin-top: 0px;
+        
+    }
+
+    #textbox2{
+        margin-top: 5px;
+        width: 185px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: gainsboro;
+        
+    }
+    .dogpics{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+    
+    
+    #dogpic1,#dogpic2,#dogpic3{
+       
+        height: 40px;
+        border-radius: 10px;
+        margin-right: 5px;
+    }
+    .r-text{
+        align-self: flex-end;
+        margin-right: 15px;
+    }
+    #textbox3{
+        
+        padding: 4px;
+        width: 160px;
+        height: 35px;
+        border-radius: 10px;
+        background-color: white;
+        margin-top: 5px;
+        color: hsl(271, 15%, 43%);
+        
+    }
+    #textbox4{
+    
+        padding: 3px;
+        width: 140px;
+        height: 20px;
+        border-radius: 10px;
+        background-color: white;
+        margin-top: 5px;
+        color: hsl(271, 15%, 43%);
+    
+        
+    }
+    #textbox5{
+        padding: 6px;
+        width: 190px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: gainsboro;
+        margin-top: 5px;    
+    
+    }
+    .form{
+        width: 180px;
+        height: 25px;
+        border-radius: 10px;
+        background-image: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+    
+        flex-wrap: wrap;
+        flex-direction: column;
+        color: white;
+    }
+    
+    
+    #send{
+        
+        display: flex;
+        flex-direction: column;
+        
+        height: 30px;
+        width: 240px;
+        border-radius: 20px;
+        background-color: white;
+        margin-top: 7px; 
+        border: 1px solid white;
+        text-align: left;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       
+        
+    }
+    #sendicon{
+        margin-left: 85px;
+        align-self: flex-end;
+    }
+    #message{
+        margin-left: 15px;
+        color: gainsboro;
+        
+    }
+    #price1{
+        margin-left: 35px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #price2{
+        margin-left: 49px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #middle{
+        align-self: center;
+        text-align: center;
+        width: 300px;
+        margin:auto;
+        margin-top: 0px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 30px;
+        color: hsl(270, 7%, 64%);
+        margin-top: -15px;
+    }
+    h1{
+        margin-left: -25px;
+        font-size: 45px;
+        color: hsl(271, 36%, 24%);
+        width: 350px;
+    }
+    .attribution{
+        position: relative;
+        top:00px;
+        left: 00px;
+        width: 400px;
+        margin-left: -50px;
+        margin-top: 25px;
+    }
+    
+    #last{
+        z-index: -1;
+        height: 550px;
+        width: 420px;
+        background-image: linear-gradient(hsl(293, 100%, 63%) ,hsl(264, 100%, 61%));
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+        opacity: 0.08;
+       margin-left: 180px ;
+       margin-top: -400px;
+    }
+}
