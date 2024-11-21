@@ -22,9 +22,9 @@ body{
 
 #first{
     background-image: linear-gradient(hsl(293, 100%, 63%) ,hsl(264, 100%, 61%));
-    height: 850px;
-    width: 800px;
-    margin-left: -150px;
+    height: 450px;
+    width: 400px;
+    margin-left: -75px;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
 }
@@ -34,28 +34,29 @@ body{
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 650px;
-    width: 380px;
+    height: 400px;
+    width: 220px;
     border: 1px solid hsl(270, 20%, 96%) ;
     box-shadow: 5px 5px 10px hsl(270, 20%, 96%);
     border-radius: 40px;
     margin-left: -100px;
+    padding: 10px;
 }
 #screen{
     
     background-color: hsl(270, 20%, 96%);
-    height: 625px;
-    width: 325px;
+    height: 400px;
+    width: 225px;
     border-radius: 30px;
     
 }
 #t{ 
-    width: 150px;
-    height: 35px;
+    width: 120px;
+    height: 25px;
     background-color: white;
     border: 1px solid hsl(210, 100%, 99%);
     margin: auto;
-    margin-top: -110px;
+    margin-top: -90px;
     border-radius: 20px;
     position: absolute;
     border: none;
@@ -69,8 +70,8 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    height: 120px;
-    width: 325px;
+    height: 95px;
+    width: 225px;
     align-items: center;
     justify-content: center;
 }
@@ -85,21 +86,22 @@ body{
 
 }
 #sam{
-    width: 400px;
-    font-size:20px;
+    /* width: 400px;
+    border: 2px solid black; */
+    font-size:12px;
     color: white;
     font-weight: bold;
 
 }
 #available{
-    font-size: 13px;
+    font-size: 9px;
     color: gainsboro;
     position: relative;
-    top: -3px;
+    top: -5px;
     
 }
 #samavail{
-    width: auto;
+    /* width: auto; */
     margin-left: 10px;
 
 }
@@ -114,13 +116,13 @@ body{
 #textspace{
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 325px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 14px;
+    height: 295px;
+    width: 210px;
+    padding: 5px;
+    font-size: 10px;
     flex-wrap: nowrap;  
     color: hsl(276, 55%, 52%);
+    /* border: 2px solid blue; */
 }
 .form,#textbox1,#textbox2,#textbox3,#textbox4,#textbox5,.dogpics,#send{
     animation-name: emptychat;
@@ -135,27 +137,26 @@ body{
     justify-content: center; 
 }
 #textbox1{
-    width: 185px;
-    height: 45px;
+    width: 130px;
+    height: 32px;
     border-radius: 10px;
     background-color: gainsboro;
-    margin-top: 15px;
+    margin-top: 0px;
     animation: animatechatleft 0.5s linear 1s 1 backwards;
 }
 #textbox2{
-    margin-top: 10px;
-    width: 185px;
-    height: 50px;
+    margin-top: 5px;
+    width: 180px;
+    height: 30px;
     border-radius: 10px;
     background-color: gainsboro;
     animation: animatechatleft 0.5s linear 2s 1 backwards;
 }
 .dogpics{
     display: flex;
-    align-items: center;
     justify-content: flex-end;
-    margin-top: 10px;
-    margin-right: 15px;
+    margin-top: 7px;
+    margin-right: 0px;
     animation: animatechatleft 0.5s linear 3s 1 backwards;
 
 }
@@ -163,23 +164,23 @@ body{
 
 #dogpic1,#dogpic2,#dogpic3{
    
-    height: 50px;
+    height: 30px;
     border-radius: 10px;
     margin-right: 5px;
 
 }
 .r-text{
     align-self: flex-end;
-    margin-right: 15px;
+    
 }
 #textbox3{
     
     padding: 4px;
-    width: 160px;
-    height: 35px;
+    width: 150px;
+    height: 22px;
     border-radius: 10px;
     background-color: white;
-    margin-top: 10px;
+    margin-top: 5px;
     color: hsl(271, 15%, 43%);
     animation: animatechatleft 0.5s linear 4s 1 backwards;
 
@@ -187,11 +188,11 @@ body{
 #textbox4{
 
     padding: 3px;
-    width: 140px;
-    height: 20px;
+    width: 90px;
+    height: 15px;
     border-radius: 10px;
     background-color: white;
-    margin-top: 10px;
+    margin-top: 5px;
     color: hsl(271, 15%, 43%);
     animation: animatechatleft 0.5s linear 5s 1 backwards;
 
@@ -199,11 +200,11 @@ body{
 }
 #textbox5{
     padding: 6px;
-    width: 190px;
-    height: 60px;
+    width: 140px;
+    height: 30px;
     border-radius: 10px;
     background-color: gainsboro;
-    margin-top: 10px;    
+    margin-top: 7px;    
     animation: animatechatleft 0.5s linear 6s 1 backwards;
 
 }
@@ -217,11 +218,11 @@ body{
 }
 
 .form{
-    width: 190px;
-    height: 30px;
+    width: 150px;
+    height: 25px;
     border-radius: 10px;
     background-image: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
-    margin-top: 10px;
+    margin-top: 5px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -235,21 +236,23 @@ body{
     
     display: flex;
     flex-direction: column;
-    height: 40px;
-    width: 300px;
+    align-self: center;
+    height: 30px;
+    width: 180px;
     border-radius: 20px;
     background-color: white;
-    margin-top: 15px; 
+    margin-top: 5px; 
     border: 1px solid white;
     text-align: left;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     animation: animatechatleft 0.5s linear 9s 1 backwards;
+    padding-right: 3px;
 
 }
 #sendicon{
-    margin-left: 85px;
+    margin-left: 60px;
     align-self: flex-end;
 }
 #message{
@@ -259,45 +262,48 @@ body{
     
 }
 #price1{
-    margin-left: 35px;
-    font-size: 15px;
+    margin-left: 30px;
+    font-size: 12px;
     font-weight: bold;
 }
 #price2{
-    margin-left: 49px;
-    font-size: 15px;
+    margin-left: 45px;
+    font-size: 12px;
     font-weight: bold;
 }
 #middle{
     align-self: center;
     text-align: left;
-    width: 1000px;
-    margin-left: 200px;
+    /* border: 2px solid green; */
+    position: relative;
+    left :100px;
+
 }
 p{
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 16px;
+    width: 500px;
+    line-height: 25px;
     color: hsl(270, 7%, 64%);
 }
 h1{
-    font-size: 55px;
+    font-size: 30px;
     color: hsl(271, 36%, 24%);
 }
 
 #last{
     z-index: -1;
-    height: 900px;
-    width: 800px;
+    height: 500px;
+    width: 400px;
     background-image: linear-gradient(hsl(293, 100%, 63%) ,hsl(264, 100%, 61%));
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     opacity: 0.1;
-   margin-right:-200px ;
-   margin-top: 300px;
+    margin-right:-100px ;
+    margin-top: 100px;
 }
 .attribution{
     position: relative;
-    top:200px;
+    top:120px;
     left: -100px;
 }
 
@@ -323,7 +329,7 @@ h1{
         flex-wrap: wrap;
         height: 100vh;
         width: 100vw;
-        
+        overflow: hidden;   
         
     }
     #first{
@@ -340,18 +346,18 @@ h1{
         justify-content: center;
         align-items: center;
         background-color: white;
-        height: 550px;
-        width: 300px;
+        height: 500px;
+        width: 290px;
         border: 1px solid hsl(270, 20%, 96%) ;
         box-shadow: 5px 5px 10px hsl(270, 20%, 96%);
         border-radius: 40px;
-        margin-top: 50px;
+        margin-top: 80px;
     }
     #screen{
     
         background-color: hsl(270, 20%, 96%);
-        height: 520px;
-        width: 270px;
+        height: 490px;
+        width: 285px;
         border-radius: 30px;
         
     }
@@ -372,7 +378,7 @@ h1{
         flex-direction: row;
         flex-wrap: nowrap;
         height: 110px;
-        width: 270px;
+        width: 285px;
         align-items: center;
         justify-content: center;
     }
@@ -399,10 +405,13 @@ h1{
     }
     
     #textspace{
-      
-        width: 270px;
-        padding: 10px;
-        
+        font-size: 13px;
+        width: 260px;
+        padding-left: 10px;
+        padding-top: 10px;
+
+        /* border: 2px solid black; */
+        height: 355px;
     }
     #textbox1,#textbox2,#textbox3,#textbox4,#textbox5{
         display: flex;
@@ -410,8 +419,9 @@ h1{
         justify-content: center; 
     }
     #textbox1{
-        width: 185px;
-        height: 40px;
+        padding: 2px;
+        width: 180px;
+        height: 50px;
         border-radius: 10px;
         background-color: gainsboro;
         margin-top: 0px;
@@ -419,8 +429,9 @@ h1{
     }
 
     #textbox2{
+        padding: 2px;
         margin-top: 5px;
-        width: 185px;
+        width: 180px;
         height: 50px;
         border-radius: 10px;
         background-color: gainsboro;
@@ -431,7 +442,7 @@ h1{
         align-items: center;
         justify-content: flex-end;
         margin-top: 10px;
-        margin-right: 15px;
+        margin-right: -10px;
     }
     
     
@@ -443,7 +454,7 @@ h1{
     }
     .r-text{
         align-self: flex-end;
-        margin-right: 15px;
+        margin-right: -5px;
     }
     #textbox3{
         
@@ -454,6 +465,8 @@ h1{
         background-color: white;
         margin-top: 5px;
         color: hsl(271, 15%, 43%);
+        margin-right: 0px;
+
         
     }
     #textbox4{
@@ -465,6 +478,7 @@ h1{
         background-color: white;
         margin-top: 5px;
         color: hsl(271, 15%, 43%);
+        margin-right: 0px;
     
         
     }
@@ -474,15 +488,15 @@ h1{
         height: 50px;
         border-radius: 10px;
         background-color: gainsboro;
-        margin-top: 5px;    
-    
+        margin-top: 10px;    
+
     }
     .form{
         width: 180px;
-        height: 25px;
+        height: 30px;
         border-radius: 10px;
         background-image: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
-        margin-top: 5px;
+        margin-top: 7px;
         display: flex;
         justify-content: center;
     
@@ -495,13 +509,13 @@ h1{
     #send{
         
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         
-        height: 30px;
+        height: 40px;
         width: 240px;
         border-radius: 20px;
         background-color: white;
-        margin-top: 7px; 
+        margin-top: 10px; 
         border: 1px solid white;
         text-align: left;
         flex-wrap: wrap;
@@ -533,18 +547,24 @@ h1{
         align-self: center;
         text-align: center;
         width: 300px;
-        margin:auto;
+        /* margin-left: -100px; */
         margin-top: 0px;
     }
-    p{
+    p{  
+        position: relative;
+        left: -40px;
+        top: 30px;
         font-size: 16px;
-        line-height: 30px;
+        line-height: 25px;
         color: hsl(270, 7%, 64%);
-        margin-top: -15px;
+        width: 300px;
     }
     h1{
-        margin-left: -25px;
-        font-size: 45px;
+        position: relative;
+        top: 30px;
+        left: -60px;
+        margin: auto;
+        font-size: 40px;
         color: hsl(271, 36%, 24%);
         width: 350px;
     }
@@ -553,8 +573,8 @@ h1{
         top:00px;
         left: 00px;
         width: 400px;
-        margin-left: -50px;
-        margin-top: 25px;
+        margin-left: -80px;
+        margin-top: 70px;
     }
     
     #last{
